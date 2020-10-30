@@ -12,17 +12,16 @@ export const SearchCard = styled.div`
     line-height:1.5em;
     margin-bottom: 2em;
     box-shadow: 0px 12px 17px 6px rgba(0, 0, 0, 0.25);
-    & div{
+    & form{
         margin-top: 3em;
         display:flex;
         gap: 20px;
 
     }
     @media only screen and (max-width: 500px) {
-        div{
+        form{
         flex-direction:column;
-
-    }
+        }
     }
 
 `

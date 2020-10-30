@@ -5,14 +5,22 @@ import * as collor from "../../theme.js";
 export const Repo = styled.div`
     border-left: 5px solid ${collor.secundary};
     padding: 0 10px ;
+    margin-bottom: 20px;
+
     & .repository_languaes{
         width:100%;
-        margin-bottom: 20px;
        
     }
     & span {
         font-size:.8em;
         line-height:1em;
+    }
+    & button{
+        cursor: pointer;
+        color:${collor.primary};
+        background: none;
+        border: none;
+
     }
     
 `

@@ -1,16 +1,19 @@
-import React,{useState} from 'react';
+import React from 'react';
 
 import Header from './components/header';
 import Search from './components/search';
 import ResultsList from './components/resultsList';
+import Loading from './components/loading';
+import Error from './components/error';
 
 function App() {
-  const [retulsdata, setResultsData] = useState([])
   return (
     <div className="body_conainer">
+      <Loading/>
+      <Error/>
       <Header/>
-      <Search setResultsData={setResultsData} />
-      <ResultsList retulsdata={retulsdata}/>
+      <Search />
+      <ResultsList/>
     </div>
   );
 }

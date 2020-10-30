@@ -10,11 +10,22 @@ export const MainHeader = styled.header`
     height: 5em;
     padding: 1em;
     margin-bottom: -2em;
-    @media only screen and (max-width: 400px) {
+
+    & .header_container{
+        max-width:750px;
+        display:flex;
+        align-items:baseline;
+        margin:auto;
+        gap:20px;
+    }
+    @media only screen and (max-width: 480px) {
         font-size: 40px;
-        text-align:center;
+        
         padding: .5em;
-        height: 4em;
+        height: 4.5em;
+        & .header_container{
+            justify-content:center;
+        }
     }
 `
 
