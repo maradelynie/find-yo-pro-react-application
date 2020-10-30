@@ -1,4 +1,4 @@
-# AskMe - Dev Frontend 
+# Find Yo Pro - Dev Frontend 
 
 Find yo pro is a web app made with reactJs, redux and styled components for search gitHub users and repositories data.
 Is was a chalenge deal with the search limit but as soon as possible it might have the register with github option that would really complete this project.
